@@ -752,15 +752,15 @@ wheels = [
 
 [[package]]
 name = "boxsdk"
-version = "10.12.0"
+version = "10.16.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
     { name = "requests-toolbelt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/29/c5/0b83160803fa3629043baacf44b8b6e2533643da1ad5c83477252f17ff75/boxsdk-10.12.0.tar.gz", hash = "sha256:92e08a961d5203da0e9995ef7725d02331200b1677b6a09045c9c7e6becc3c86", size = 285602, upload-time = "2026-06-11T09:27:05.382Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d9/8b/e69ee9763ea28a293778c6c12858e3ea9b126332eb1dc8b8e1414028918a/boxsdk-10.16.0.tar.gz", hash = "sha256:d5332a564e57fbf0604fac89b02be62f5a67c007f2972f686eb53efb519f1b32", size = 295314, upload-time = "2026-09-23T14:18:21.647Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/25/50/836836af5d397013db2976351b752dde3bb9b3fe7a90c76f250544ba9174/boxsdk-10.12.0-py3-none-any.whl", hash = "sha256:0563eb38ec26a7f500318e8d98e190156912626f52c68e7d60e30ef43bebd467", size = 607050, upload-time = "2026-06-11T09:27:03.583Z" },
+    { url = "https://files.pythonhosted.org/packages/73/48/c38569541a999fc0842059ec6cbbb28bd18b9a786e4c25133dabc1fc1992/boxsdk-10.16.0-py3-none-any.whl", hash = "sha256:815c72f3eba85a7689e84d65dbb06291a6cb7f33b4fd617e7e2a7bafd04f4024", size = 625312, upload-time = "2026-09-23T14:18:19.888Z" },
 ]
 
 [[package]]
@@ -4373,7 +4373,7 @@ backend = [
     { name = "azure-storage-blob", specifier = ">=12.24.0,<13.0.0" },
     { name = "beautifulsoup4", specifier = "==4.12.3" },
     { name = "boto3", specifier = "==1.39.11" },
-    { name = "boxsdk", specifier = "==10.12.0" },
+    { name = "boxsdk", specifier = "==10.16.0" },
     { name = "braintrust", specifier = "==0.37.0" },
     { name = "celery", specifier = "==5.5.1" },
     { name = "chardet", specifier = "==5.2.0" },
